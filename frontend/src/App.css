@@ -1,0 +1,47 @@
+#App {
+  margin-left: 15px;
+}
+
+#Form {
+  margin-left: 2px;
+  width: 280px;
+  min-width: 280px;
+}
+
+#Form .row {
+  margin: 5px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#Places .place {
+  margin: 15px 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#Places .place .icon {
+  margin-right: 20px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e6e6e6;
+}
+
+#Places .place .icon img {
+  width: 30px;
+}
+
+#Places .place .desc .name {
+  font-weight: 700;
+}
+
+#Places .place .desc .types, #Places .place .desc .vicinity {
+  font-size: 14px;
+}
