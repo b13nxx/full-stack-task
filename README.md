@@ -5,7 +5,7 @@ Build a Full-Stack application that has 3 input fields "longitude, latitude, rad
 - GET API should accept parameters from UI to make a nearby search request via Google Places API and return the result as response.
 - Responses from Google Places API should be cached and if same request comes again the response should be returned from cache (Redis, Mongo, Postgresql, etc...).
 
-## To Run Project
+## For Run Project
 
 - First, run backend server by typing `npm start` inside _backend_ directory.
 - Then, run project by typing `npm start` inside _frontend_ directory.
