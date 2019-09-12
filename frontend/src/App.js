@@ -21,7 +21,7 @@ export default class App extends React.Component {
   getPlaces() {
     axios.get('http://localhost:8070/places/' + this.state.latitude + '/' + this.state.longitude + '/' + this.state.radius).then(response => {
       this.setState({places: response.data})
-    }).catch((err) => {
+    }).catch(err => {
       console.log(err.message)
     })
   }
@@ -38,7 +38,7 @@ export default class App extends React.Component {
               <div className="column">{item}</div>
               <div className="column">
                 : <input type="text" value={this.state[item.toLowerCase()]}
-                         onChange={(event) => this.handleChange(event, item.toLowerCase())}/>
+                         onChange={event => this.handleChange(event, item.toLowerCase())}/>
               </div>
             </div>
           )}
